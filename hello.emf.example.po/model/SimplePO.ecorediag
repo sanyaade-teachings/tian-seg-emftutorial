@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_Eom_QNHWEeKDmoZdLJhmPw" type="EcoreTools" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_E2g4YNHWEeKDmoZdLJhmPw" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_E2qpYNHWEeKDmoZdLJhmPw" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_E2tFoNHWEeKDmoZdLJhmPw" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_E4GMwNHWEeKDmoZdLJhmPw" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SimplePO.ecore#//PurchaseOrder/shipTo"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E4GMwdHWEeKDmoZdLJhmPw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_E4GMwtHWEeKDmoZdLJhmPw" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SimplePO.ecore#//PurchaseOrder/billTo"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E4GMw9HWEeKDmoZdLJhmPw"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_E2tFodHWEeKDmoZdLJhmPw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E2tFotHWEeKDmoZdLJhmPw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E2tFo9HWEeKDmoZdLJhmPw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_E2tssNHWEeKDmoZdLJhmPw" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_E2tssdHWEeKDmoZdLJhmPw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E2tsstHWEeKDmoZdLJhmPw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E2tss9HWEeKDmoZdLJhmPw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_E2g4YdHWEeKDmoZdLJhmPw" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="SimplePO.ecore#//PurchaseOrder"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E2g4YtHWEeKDmoZdLJhmPw" x="106" y="159"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_E4Gz0NHWEeKDmoZdLJhmPw" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_E4Gz09HWEeKDmoZdLJhmPw" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_E4Ha4NHWEeKDmoZdLJhmPw" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_E4Ha6NHWEeKDmoZdLJhmPw" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SimplePO.ecore#//Item/productName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E4Ha6dHWEeKDmoZdLJhmPw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_E4IB8NHWEeKDmoZdLJhmPw" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SimplePO.ecore#//Item/quantity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E4IB8dHWEeKDmoZdLJhmPw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_E4IB8tHWEeKDmoZdLJhmPw" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SimplePO.ecore#//Item/price"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E4IB89HWEeKDmoZdLJhmPw"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_E4Ha4dHWEeKDmoZdLJhmPw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E4Ha4tHWEeKDmoZdLJhmPw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E4Ha49HWEeKDmoZdLJhmPw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_E4Ha5NHWEeKDmoZdLJhmPw" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_E4Ha5dHWEeKDmoZdLJhmPw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E4Ha5tHWEeKDmoZdLJhmPw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E4Ha59HWEeKDmoZdLJhmPw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_E4Gz0dHWEeKDmoZdLJhmPw" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="SimplePO.ecore#//Item"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E4Gz0tHWEeKDmoZdLJhmPw" x="90" y="18"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_EonmUNHWEeKDmoZdLJhmPw"/>
+  <element xmi:type="ecore:EPackage" href="SimplePO.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_E4VdUNHWEeKDmoZdLJhmPw" type="3002" source="_E2g4YNHWEeKDmoZdLJhmPw" target="_E4Gz0NHWEeKDmoZdLJhmPw">
+    <children xmi:type="notation:Node" xmi:id="_E4WrcNHWEeKDmoZdLJhmPw" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E4WrcdHWEeKDmoZdLJhmPw" x="1" y="-20"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_E4YgoNHWEeKDmoZdLJhmPw" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E4YgodHWEeKDmoZdLJhmPw" x="1" y="12"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_E4VdUdHWEeKDmoZdLJhmPw" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_E4VdUtHWEeKDmoZdLJhmPw" fontColor="4210752" fontName="Lucida Grande" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="SimplePO.ecore#//PurchaseOrder/items"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E4VdU9HWEeKDmoZdLJhmPw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FK2JoNHWEeKDmoZdLJhmPw" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FK2wsNHWEeKDmoZdLJhmPw" id="(0.49645390070921985,1.0)"/>
+  </edges>
+</notation:Diagram>
